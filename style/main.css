@@ -124,7 +124,7 @@ main .container{
     cursor: pointer;
 }
 
-.box-filme:hover{
+.item:hover{
     transform: scale(1.1);
     transition: .5s ease-out;
 }
