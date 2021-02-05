@@ -13,6 +13,32 @@
     <title>Netflix Clone</title>
 </head>
 <body>
+    <!-- pop up -->
+    <div class="info">
+        <div class="container">
+            <div class="close" onclick="closepop()"><p>x</p></div>
+
+            <h1>The Mentalist</h1>
+            <p>Patrick Jane é famoso por sua habilidade de alta percepção de tudo que está ao seu redor. Ele já quase foi uma celebridade, alegando ser médium vidente, mas agora admite que fingia ter poderes paranormais. Com sua grande habilidade de observação, Patrick trabalha como consultor independente para as autoridades da Califórnia, resolvendo um número considerável de crimes complicados.</p>
+
+            <a href="https://www.youtube.com/watch?v=5FBdxyfBxM8" target="_blank">
+            <button role="button" class="botao">
+                <i class="fas fa-play"></i>
+                Assistir
+            </button>
+            </a>
+
+            <div class="extra">
+            <p class="ano">2008</p>
+            <p class="cast"><b>Temporadas:</b> 7</p>
+            <p class="cast"><b>Criador:</b> Bruno Heller.</p>
+            <p class="cast"><b>Elenco:</b> Simon Baker, Robin Tunney, Owain Yeoman, Tim Kang Amanda Righetti.</p>
+            <p class="cast"><b>Géneros:</b> Crime, Drama, Mistério</p>
+            </div>
+                
+        </div>
+    </div>
+
     <header>
         <div class="container">
             <a href="index.html" class="logo"><b>NETFLIX</b></a>
@@ -39,8 +65,8 @@
                         Assistir
                     </button>
                     </a>
-                    <button role="button" class="botao">
-                        <i class="fas fa-info-circle"></i>
+                    <button role="button" class="botao" onclick="popup()">
+                        <i id="maisinfo" class="fas fa-info-circle"></i>
                         Informações
                     </button>
                 </div>

@@ -132,3 +132,55 @@ main .container{
 .carrosel-filmes{
     margin-top: 10px;
 }
+
+/* popup */
+.info{
+    width: 100%;
+    height: 100%;
+    background-color: #000000AA;
+    position: fixed;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    z-index: 2;
+    display: none;
+}
+
+.info .container{
+    width: 600px;
+    height: 500px;
+    background-color: var(--preta);
+    border-radius: 8px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    padding: 50px;
+    position: relative;
+}
+
+.info .close{
+    font-size: 22px;
+    cursor: pointer;
+    position: absolute;
+    top: 0px;
+    right: 10px;
+}
+
+.info h1, .info .container p,.info button{
+    margin: 20px;
+}
+
+.info p{
+    text-align: justify;
+}
+
+.info .extra .cast{
+    margin: 2px;
+    font-size: 12px;
+}
+
+.info .extra .ano{
+    margin: 6px;
+    font-size: 16px;
+}
