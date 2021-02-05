@@ -123,6 +123,11 @@ main .container{
     display: block; 
 }
 
+.box-filme:hover{
+    transform: scale(1.1);
+    transition: .5s ease-out;
+}
+
 .carrosel-filmes{
     margin-top: 10px;
 }
