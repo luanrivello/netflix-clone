@@ -170,7 +170,7 @@ main .container{
 
 .info .close:hover{
     color: #999999;
-    transition: .3s ease-out;
+    transition: .2s ease-out;
 }
 
 .info .infobox{
