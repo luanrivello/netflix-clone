@@ -1,0 +1,47 @@
+@media screen and (max-width: 700px){
+    header .container{
+        display: flex;
+        flex-direction: column;
+        padding-bottom: 10px;
+    }
+
+    header .logo{
+        margin: 5px;
+    }
+
+    .titulo{
+        font-size: 40px;
+    }
+
+    .botao{
+        margin-left: 0px;
+    }
+
+    .principal .descricao{
+        font-size: 15px;
+        width: 50%;
+    }
+
+    .box-filme{
+        height: 50%;
+        width: 50%;
+        display: block;
+    }
+
+}
+
+@media screen and (min-width: 1400px){
+    .principal .descricao{
+        font-size: 20px
+    }
+
+    .titulo{
+        font-size: 60px;
+    }
+
+    .botao{
+        font-size: 20px;
+        width: 200px
+    }
+
+}

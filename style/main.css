@@ -1,0 +1,128 @@
+:root{
+    --vermelho: #F50914;
+    --preta: #141414;
+}
+
+@font-face {
+    font-family: 'Source Sans Pro', sans-serif;
+	src: url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');;
+}
+
+*{
+	margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+html, body{
+	height: 100%;
+}
+
+body{
+    background-color: #000000;
+    font-family: 'Source Sans Pro', sans-serif;
+    color: #FFFFFF;
+    overflow-x: hidden;
+}
+
+/* Header */
+header{
+    position: -webkit-sticky; /* Safari */
+    position: sticky;
+    top: 0;
+}
+
+header .container{
+    display: flex;
+    justify-content: row;
+    align-items: center;
+    background-color: var(--preta)
+}
+
+header .logo{
+    color: var(--vermelho);
+    font-size: 40px;
+    margin: 10px 40px 10px 40px;
+    text-decoration: none;
+}
+
+header nav a{
+    text-decoration: none;
+    color: #AAAAAA;
+    margin-right: 10px;
+    font-size: 20px;
+}
+
+header .selected{
+    color: #FFFFFF;
+    cursor: default;
+}
+
+header .unselected:hover{
+    color: #777777;
+    transition: .3s ease-out;
+}
+
+/* filme principal */
+main .container{
+    margin: 0px 0px 0px 30px;
+    width: 100%;
+}
+
+.principal{
+    font-size: 16px;
+    height: 70vh;
+
+    background: linear-gradient(rgba(0,0,0,.5),rgba(0,0,0,.5)100%), linear-gradient(rgba(0,0,0,0), rgba(0,0,0,1)100%), url(../image/the-mentalist-bk2.jpg) no-repeat;
+    background-size: cover;
+    background-position: 50% 20%;
+
+    display: flex;
+    flex-direction: column;
+    align-items: flex-start;
+    justify-content: space-around;
+
+}
+
+.principal .descricao{
+    margin: 10px 0px 40px 20px;
+    width: 40%;
+    font-family: 'Times New Roman', Times, serif;
+    text-align: justify;
+}
+
+.titulo{
+    font-size: 50px;
+}
+
+.botao{
+    background-color: #00000088;
+    border: none;
+    border-radius: 4px;
+    color: #FFFFFF;
+    padding: 15px 20px;
+    margin-right: 15px;
+    width: 150px;
+    cursor: pointer;
+}
+
+.botao:hover{
+    background-color: #FFFFFF;
+    color: #000000;
+    transition: .3s ease-in-out;
+}
+
+.botao i{
+    margin-right: 8px;
+}
+
+/* carrosel */
+.box-filme{
+    height: 100%;
+    width: 100%;
+    display: block; 
+}
+
+.carrosel-filmes{
+    margin-top: 10px;
+}
