@@ -48,11 +48,11 @@ header .logo{
 }
 
 header #n { font-size: 40px; }
-header #e { font-size: 37px; margin-left: -1px;}
+header #e { font-size: 37px; margin-left: -3px;}
 header #t { font-size: 35px; margin: 1px 0px 0px 0px; }
 header #f { font-size: 35px; margin: 1px 0px 0px 0px; }
-header #l { font-size: 35px; margin: 1px 0px 0px -1px; }
-header #i { font-size: 37px; }
+header #l { font-size: 35px; margin: 1px 0px 0px -2px; }
+header #i { font-size: 37px; margin-right: -1px}
 header #x { font-size: 40px; }
 
 header .logo b {
