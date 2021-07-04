@@ -155,8 +155,9 @@ main .container{
     position: fixed;
     justify-content: center;
     align-items: center;
+    padding: 2px;
     z-index: 2;
-    opacity: 0;
+    opacity: 1;
     transition: opacity .3s ease-out;
     display: none;
 }
@@ -174,7 +175,7 @@ main .container{
     flex-direction: column;
     justify-content: center;
     align-items: center;
-    padding: 50px;
+    padding: 20px;
     position: relative;
 }
 
@@ -185,15 +186,21 @@ main .container{
     padding: 0px 6px;
     top: 10px;
     right: 20px;
+    background-color: #090909;
+    border-radius: 20px;
 }
 
 .info .close:hover{
     color: #999999;
-    transition: .2s ease-out;
+    transition: .1s ease-out;
+}
+
+.info .closeX{
+    margin: -2px -1px 0px 0px;
 }
 
 .info .infobox{
-    margin: 20px;
+    margin: 25px;
 }
 
 .info p{
