@@ -44,6 +44,20 @@ header .logo{
     font-size: 40px;
     margin: 10px 40px 10px 40px;
     text-decoration: none;
+    display: flex;
+}
+
+header #n { font-size: 40px; }
+header #e { font-size: 37px; margin-left: -1px;}
+header #t { font-size: 35px; margin: 1px 0px 0px 0px; }
+header #f { font-size: 35px; margin: 1px 0px 0px 0px; }
+header #l { font-size: 35px; margin: 1px 0px 0px -1px; }
+header #i { font-size: 37px; }
+header #x { font-size: 40px; }
+
+header .logo b {
+    margin: 0px;
+    padding: 0px;
 }
 
 header nav a{
@@ -139,11 +153,16 @@ main .container{
     height: 100%;
     background-color: #000000AA;
     position: fixed;
-    display: flex;
     justify-content: center;
     align-items: center;
     z-index: 2;
+    opacity: 0;
+    transition: opacity .3s ease-out;
     display: none;
+}
+
+.info:hover {
+    opacity: 1;
 }
 
 .info .container{
